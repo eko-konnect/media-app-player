@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/AboutLegalTextview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/legal"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:onClick="onLegalClicked" />
+    <TextView
+        android:id="@+id/AboutFeedbackTextview"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/send_feedback"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:onClick="onFeedbackClicked" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/Developers"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="30sp"
+        android:clickable="true"
+        android:onClick="onFeedbackClicked" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/kelvin_oguno"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:onClick="onKelvinClicked" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/paula_aliu"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:onClick="onPaulaClicked" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/tobi_badejo"
+        android:padding="10dp"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp"
+        android:clickable="true"
+        android:onClick="onTobiClicked" />
+     <ImageButton
+             android:layout_width="match_parent"
+             android:layout_height="80dp"
+             android:contentDescription="@string/hello_world"
+             android:src="@drawable/betternigeria"
+             android:scaleType="fitCenter"
+             android:onClick="onMudiClicked"
+             android:background="@android:color/transparent" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/supported_by"
+        android:gravity="center"
+        android:fontFamily="sans-serif-light"
+        android:textSize="25sp" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:orientation="horizontal" >
+         <ImageButton
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:contentDescription="@string/hello_world"
+             android:src="@drawable/fordfoundation"
+             android:scaleType="fitCenter"
+             android:onClick="onFordClicked"
+             android:background="@android:color/transparent" />
+         <ImageButton
+             android:layout_width="0dp"
+             android:layout_height="match_parent"
+             android:layout_weight="1"
+             android:contentDescription="@string/hello_world"
+             android:src="@drawable/ecokonnect"
+             android:scaleType="fitCenter"
+             android:onClick="onEkoClicked"
+             android:background="@android:color/transparent" />
+     </LinearLayout>
+     </LinearLayout>
+</LinearLayout>
+</ScrollView>
